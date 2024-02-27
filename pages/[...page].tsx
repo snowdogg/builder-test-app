@@ -73,4 +73,3 @@ export default function Page({ page }: { page: BuilderContent | null }) {
     </>
   );
 }
-gi
