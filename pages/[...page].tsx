@@ -69,7 +69,7 @@ export default function Page({ page }: { page: BuilderContent | null }) {
         <title>{page?.data?.title}</title>
       </Head>
       {/* Render the Builder page */}
-      <BuilderComponent model="page" content={page || undefined} data={{device: 'andreas', deviceSize: 'cary', foo: 'bar'}} />
+      <BuilderComponent model="page" content={page || undefined} data={{ foo: 'bar'}} />
     </>
   );
 }
